@@ -3,7 +3,7 @@ console.log ('generiamo la costante che prende il file tramite id')
 
 
 
-const passwordGenerator = document.getElementById('passowordGenerator')
+const passwordGenerator = document.getElementById('passwordGenerator')
 
 console.log ('dichiaro tutte le variabili che mi servono')
 let nome 
@@ -35,9 +35,8 @@ console.log ('il suo nome è =', numero)
 
 console.log('ora che ho tutti i dati posso generare la password ')
 
-let password = nome + cognome + colore + numero
 
-passwordGenerator.innerHTML = 
+passwordGenerator.innerHTML = nome + cognome + colore + numero
 
 
 
